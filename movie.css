@@ -1,0 +1,189 @@
+.hdr{
+	background-color: red;
+
+}
+
+.cl:after{
+	content: "";
+	clear: both;
+	display:block;
+}
+
+.hdr-inner{
+	background-color: green;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.hdr-left{
+	width: 60%;
+	float: left;
+}
+
+.hdr-right{
+	background-color: yellow;
+	width: 30%;
+	float: right;
+}
+.hdr-brand { display: inline-block; margin-right: 5px; margin-bottom: 5px;}
+.hdr-left nav { display:inline-block; }
+
+.carousel{
+	margin-left: auto;
+	margin-right: auto;
+}
+	.carousel img { width: 100%;}
+
+.inl-list li {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 15px;
+	margin-left: 20px;
+	margin-top:-50px;
+	border-left:1px solid black;
+
+}
+.inl-list li:first-child{
+	margin-left: 10px;
+	border-left:none;
+}
+
+
+.sect1{
+	background-color: pink;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+.s1-left{
+	float: left;
+	background-color: blue;
+	width: 60%;
+}
+.s1-right{
+	float: right;
+	background-color: blue;
+	width: 30%;
+}
+
+.art-media{
+	background-color: grey;
+	margin-bottom: 20px;
+}
+.alinea li{
+	display: inline-block;
+}
+.li-left{
+
+}
+.image-left{
+	margin-right: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+.image-right{
+	margin-right: 5px;
+	margin-bottom: 5px;
+	float: right;
+}
+.h1big{
+	font-size: 23px;
+}
+.art-news{
+	background-color: grey;
+	vertical-align: bottom;
+}
+.art-box{
+	background-color: grey;
+	margin-bottom: 10px;
+}
+.office-li{
+	display: block;
+}
+.opening{
+	border-color: black;
+	border: 1px solid;
+	border-radius: 4px;
+	margin-left: 0px;
+	display:inline-block;
+	margin-top: 3px;
+
+}
+.opening:last-child{
+	margin-left: -4px;
+}
+
+.share li{
+
+	display:inline-block;
+}
+.art-tabs{
+	background-color: grey;
+
+}
+.art-tabs div{
+	display: inline-block;
+}
+.art-share{
+	background-color: grey;
+	margin-top: 10px;
+
+}
+.visited{
+	background-color: blue;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.vst-inn{
+	background-color: blue;
+	margin: 10px;
+
+}
+.vst-li{
+	width: 30%;
+	background-color: grey;
+	margin-left: 5px;
+	margin-top: 5px;
+	display: inline-block;
+	margin-bottom: 5px;
+
+}
+.box-white{
+	height: 12px;
+	width:60%;
+	margin-left: 14px;
+	border-radius: 12px;
+	display: inline-block;
+	background-color: white;
+}
+.box-blue{
+	height: 100%;
+	width:70%;
+	border-radius: 12px;
+	display: inline-block;
+	background-color: blue;
+}
+.style{
+
+	display:inline-block;
+	vertical-align: middle;
+}
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.vst-li img{
+	display: inline-block;
+	vertical-align: middle;
+}
+/* para q las fotos de visited bajen
+   esto es un media_query*/
+@media (max-width: 600px){
+	.vst-inn li {
+		float: none;
+		width: 300px;
+		margin-bottom: 10px;
+	}
+}
