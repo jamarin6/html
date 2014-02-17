@@ -1,6 +1,8 @@
 .hdr{
-	background-color: red;
-
+	background-color: white;
+	width: 100%;
+	z-index: 1;
+	position: fixed;
 }
 
 .cl:after{
@@ -10,7 +12,7 @@
 }
 
 .hdr-inner{
-	background-color: green;
+	background-color: white;
 	max-width: 1000px;
 	margin: 0 auto;
 }
@@ -21,9 +23,25 @@
 }
 
 .hdr-right{
-	background-color: yellow;
+	background-color: white;
+	border: 1px solid black;
+	
+	border-radius: 5px;
 	width: 30%;
 	float: right;
+	margin-top: 1%;
+	font-size: 20px;
+}
+.buscador {
+	display: inline-block;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+.buscador-brand {
+	display: inline-block;
+	float: right;
+	border-left: 1px solid black;
+	padding-left: 5%;
 }
 .hdr-brand { display: inline-block; margin-right: 5px; margin-bottom: 5px;}
 .hdr-left nav { display:inline-block; }
@@ -50,7 +68,7 @@
 
 
 .sect1{
-	background-color: pink;
+	background-color: white;
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
@@ -58,17 +76,17 @@
 }
 .s1-left{
 	float: left;
-	background-color: blue;
+	background-color: white;
 	width: 60%;
 }
 .s1-right{
 	float: right;
-	background-color: blue;
+	background-color: white;
 	width: 30%;
 }
 
 .art-media{
-	background-color: grey;
+	background-color: white;
 	margin-bottom: 20px;
 }
 .alinea li{
@@ -90,13 +108,34 @@
 .h1big{
 	font-size: 23px;
 }
+.aside-news{
+	display: inline-block;
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.aside-topnews{
+	float: left;
+}
+.aside-topnews ul li{
+	border-left: 1px solid black;
+	padding-left: 4%;
+	margin-left: 1%;
+}
+.aside-topnews ul li:first-child{
+	border-left: none;
+	padding-left: none;
+	margin-left: none;
+}
 .art-news{
-	background-color: grey;
+	background-color: white;
 	vertical-align: bottom;
 }
 .art-box{
-	background-color: grey;
+	background-color: white;
 	margin-bottom: 10px;
+	margin-bottom: 22%;
 }
 .office-li{
 	display: block;
@@ -119,7 +158,8 @@
 	display:inline-block;
 }
 .art-tabs{
-	background-color: grey;
+	background-color: white;
+	margin-bottom: 22%;
 
 }
 .art-tabs div{
@@ -128,30 +168,42 @@
 .art-share{
 	background-color: grey;
 	margin-top: 10px;
+	border-radius: 5px;
 
 }
 .visited{
-	background-color: blue;
+	background-color: grey;
 	max-width: 1000px;
 	margin: 0 auto;
+	border-radius: 5px;
 }
 .vst-inn{
-	background-color: blue;
+	background-color: grey;
 	margin: 10px;
+	margin-bottom: 20px;
 
 }
 .vst-li{
 	width: 30%;
 	background-color: grey;
-	margin-left: 5px;
+	margin-left: 22px;
 	margin-top: 5px;
 	display: inline-block;
 	margin-bottom: 5px;
-
+}
+.porcentaje{
+	position: relative;
+	margin-left: 8%;
+	margin-top: 1%;
+	vertical-align: middle;
+	display: inline-block;
+}
+.comentario{
+	margin-left: 8%;
 }
 .box-white{
 	height: 12px;
-	width:60%;
+	width:100%;
 	margin-left: 14px;
 	border-radius: 12px;
 	display: inline-block;
@@ -177,6 +229,24 @@
 .vst-li img{
 	display: inline-block;
 	vertical-align: middle;
+	border-radius: 50%;
+}
+.next_img{
+	display: inline-block;
+	width: 60%;
+	vertical-align: middle;
+
+}
+.footer {
+	max-width: 100%;
+	background-color: blue;
+}
+.footer span img {
+	float: left;
+	vertical-align: middle;
+}
+.textfoot {
+	display: block;
 }
 /* para q las fotos de visited bajen
    esto es un media_query*/
